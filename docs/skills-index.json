@@ -1,0 +1,2157 @@
+{
+  "generatedFrom": "skills/*/SKILL.md via scripts/extract-skills-index.mjs",
+  "counts": {
+    "skills": 50,
+    "referenceFiles": 165,
+    "integrationGuides": 95,
+    "clis": 64
+  },
+  "skills": [
+    {
+      "name": "ab-testing",
+      "version": "2.0.0",
+      "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\" \"experiment velocity,\" \"experiment backlog,\" \"ICE score,\" \"experimentation program,\" or \"experiment playbook.\" Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics. For page-level conversion optimization, see cro.",
+      "descriptionLength": 785,
+      "lines": 354,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Hypothesis Framework",
+        "Test Types",
+        "Sample Size",
+        "Metrics Selection",
+        "Designing Variants",
+        "Traffic Allocation",
+        "Implementation",
+        "Running the Test",
+        "Analyzing Results",
+        "Documentation",
+        "Growth Experimentation Program",
+        "[Experiment Name]",
+        "Common Mistakes",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "sample-size-guide.md",
+        "test-templates.md"
+      ],
+      "relatedSkills": [
+        "cro",
+        "analytics",
+        "copywriting"
+      ],
+      "descriptionSeeAlso": [
+        "analytics",
+        "cro"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 18
+    },
+    {
+      "name": "ad-creative",
+      "version": "2.8.2",
+      "description": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' 'static ads,' 'ad templates,' 'iMessage ad,' 'chat reveal ad,' 'ChatGPT ad,' 'Apple Notes ad,' 'AirDrop ad,' 'creative strategy,' 'creative roadmap,' 'creative retro,' 'hook writing,' 'creative review page,' 'present ad creative for approval,' 'motion video ad,' 'faceless video ad,' 'UGC ad,' 'greenscreen ad,' 'TikTok/Reels ad format,' 'which ad format to make,' 'Meta ad format tier list,' or 'creative format taxonomy.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see ads. For landing page copy, see copywriting.",
+      "descriptionLength": 1005,
+      "lines": 426,
+      "sections": [
+        "Before Starting",
+        "How This Skill Works",
+        "Grounded Inputs",
+        "Platform Specs",
+        "Generating Ad Visuals",
+        "Generating Ad Copy",
+        "Iterating from Performance Data",
+        "Iteration Log",
+        "Writing Quality Standards",
+        "Output Formats",
+        "Angle: [Pain Point — Manual Reporting]",
+        "Performance Summary",
+        "New Creative",
+        "Recommendations",
+        "Batch Generation Workflow",
+        "Common Mistakes",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "creative-review-page.md",
+        "creative-roadmap.md",
+        "generative-tools.md",
+        "hook-system.md",
+        "imessage-video-ads.md",
+        "meta-creative-formats.md",
+        "motion-video-ads.md",
+        "platform-specs.md",
+        "short-form-video-specs.md",
+        "static-ad-templates.md"
+      ],
+      "relatedSkills": [
+        "ads",
+        "marketing-loops",
+        "customer-research",
+        "copywriting",
+        "ab-testing",
+        "marketing-psychology",
+        "copy-editing"
+      ],
+      "descriptionSeeAlso": [
+        "ads",
+        "copywriting"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "google-ads",
+        "linkedin-ads",
+        "meta-ads",
+        "tiktok-ads"
+      ],
+      "inboundLinks": 7
+    },
+    {
+      "name": "ads",
+      "version": "2.3.2",
+      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro.",
+      "descriptionLength": 708,
+      "lines": 500,
+      "sections": [
+        "Before Starting",
+        "Reference Routing",
+        "Platform Selection Guide",
+        "Campaign Structure Best Practices",
+        "Ad Copy Frameworks",
+        "Audience Understanding & Targeting",
+        "Modern Meta playbook (Andromeda era — 2026+)",
+        "Creative Best Practices",
+        "Campaign Optimization",
+        "Retargeting Strategies",
+        "Landing Page Alignment (the headline-mirror trick)",
+        "Reporting & Analysis",
+        "Platform Setup",
+        "Google RSA Output Spec (mandatory when generating RSAs)",
+        "Audit & Recommendation Guardrails",
+        "Common Mistakes to Avoid",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "abm-playbook.md",
+        "ad-copy-templates.md",
+        "audience-targeting.md",
+        "audit-guardrails.md",
+        "b2b-paid-playbook.md",
+        "conversion-tracking.md",
+        "creative-research-automation.md",
+        "google-ads-audit-checklist.md",
+        "google-search-playbook.md",
+        "linkedin-b2b-playbook.md",
+        "meta-decision-system.md",
+        "payback-period.md",
+        "platform-setup-checklists.md",
+        "rsa-output-spec.md"
+      ],
+      "relatedSkills": [
+        "ad-creative",
+        "revops",
+        "copywriting",
+        "pricing",
+        "ab-testing",
+        "cro"
+      ],
+      "descriptionSeeAlso": [
+        "ad-creative",
+        "cro"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "ga4",
+        "google-ads",
+        "linkedin-ads",
+        "meta-ads",
+        "segment",
+        "tiktok-ads"
+      ],
+      "inboundLinks": 5
+    },
+    {
+      "name": "ai-seo",
+      "version": "2.5.0",
+      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'llms-full.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' 'agent-readable site,' 'agent readiness,' 'is my site agent-ready,' 'WebMCP,' 'do listicles still work for AI,' 'ChatGPT stopped citing comparison pages,' or 'AI citation format shift.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.",
+      "descriptionLength": 955,
+      "lines": 489,
+      "sections": [
+        "Before Starting",
+        "How AI Search Works",
+        "AI Visibility Audit",
+        "Optimization Strategy",
+        "Free",
+        "Pro",
+        "Enterprise",
+        "Agentic Experiences",
+        "Content Types That Get Cited Most",
+        "Monitoring AI Visibility",
+        "What NOT to Do",
+        "AI SEO by Content Type",
+        "Common Mistakes",
+        "Tool Integrations",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "agent-readiness.md",
+        "citations-vs-recommendations.md",
+        "content-patterns.md",
+        "content-types.md",
+        "format-volatility.md",
+        "okf.md",
+        "platform-ranking-factors.md",
+        "youtube-ai-citations.md"
+      ],
+      "relatedSkills": [
+        "seo-audit",
+        "schema",
+        "content-strategy",
+        "competitors",
+        "programmatic-seo",
+        "copywriting"
+      ],
+      "descriptionSeeAlso": [
+        "seo-audit",
+        "schema"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 7
+    },
+    {
+      "name": "analytics",
+      "version": "2.0.1",
+      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For choosing attribution models, comparing multi-touch/MMM/incrementality, or reconciling conflicting numbers across tools, see attribution. For A/B test measurement, see ab-testing.",
+      "descriptionLength": 700,
+      "lines": 311,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Tracking Plan Framework",
+        "Event Naming Conventions",
+        "Essential Events",
+        "Event Properties",
+        "GA4 Implementation",
+        "Google Tag Manager",
+        "UTM Parameter Strategy",
+        "Debugging and Validation",
+        "Privacy and Compliance",
+        "Output Format",
+        "Overview",
+        "Events",
+        "Custom Dimensions",
+        "Conversions",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "event-library.md",
+        "ga4-implementation.md",
+        "gtm-implementation.md"
+      ],
+      "relatedSkills": [
+        "ab-testing",
+        "attribution",
+        "seo-audit",
+        "cro",
+        "revops"
+      ],
+      "descriptionSeeAlso": [
+        "attribution",
+        "ab-testing"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "amplitude",
+        "ga4",
+        "mixpanel",
+        "posthog",
+        "segment"
+      ],
+      "inboundLinks": 11
+    },
+    {
+      "name": "aso",
+      "version": "2.0.1",
+      "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.",
+      "descriptionLength": 461,
+      "lines": 315,
+      "sections": [
+        "When to Use",
+        "Before Auditing",
+        "Phase 1 — Identify Store & Fetch",
+        "Phase 1.5 — Assess Brand Maturity",
+        "Phase 2 — Score Each Dimension",
+        "Phase 3 — Competitor Comparison (Optional)",
+        "Phase 4 — Generate Report",
+        "Platform-Specific Rules",
+        "Common Issues Checklist",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "apple-specs.md",
+        "benchmarks.md",
+        "google-play-specs.md",
+        "report-template.md",
+        "scoring-criteria.md"
+      ],
+      "relatedSkills": [
+        "cro",
+        "ad-creative",
+        "analytics",
+        "customer-research"
+      ],
+      "descriptionSeeAlso": [],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 1
+    },
+    {
+      "name": "attribution",
+      "version": "1.1.0",
+      "description": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attribution,\" \"attribution model,\" \"first-touch vs last-touch,\" \"multi-touch,\" \"which channel drives revenue,\" \"what's my real CAC,\" \"my dashboards disagree,\" \"Google/Meta says X but GA says Y,\" \"media mix model,\" \"MMM,\" \"incrementality,\" \"geo lift,\" \"holdout test,\" \"how did you hear about us,\" \"self-reported attribution,\" \"dark social,\" or wants to instrument attribution themselves — \"stitch my bookings to their source,\" \"SavvyCal/Calendly attribution,\" \"close the identify gap,\" \"track conversions on a third-party domain,\" \"first-party / self-hosted attribution.\" For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI, see ads. For pipeline and CRM revenue reporting, see revops. For the AI-search attribution blind spot, see ai-seo.",
+      "descriptionLength": 977,
+      "lines": 225,
+      "sections": [
+        "Boundaries — what this skill does NOT own",
+        "Pillar A — Interpretation",
+        "Pillar B — Own your attribution (first-party)",
+        "Output format",
+        "The question",
+        "Source of truth",
+        "What each source says",
+        "Model comparison (for long cycles)",
+        "Confidence & gaps",
+        "Recommendation",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "attribution-models.md",
+        "by-business-type.md",
+        "first-party-tracking.md",
+        "measurement-paradigms.md"
+      ],
+      "relatedSkills": [
+        "analytics",
+        "ads",
+        "revops",
+        "ai-seo",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "analytics",
+        "ads",
+        "revops",
+        "ai-seo"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "dub-co",
+        "ga4",
+        "hubspot",
+        "posthog",
+        "rb2b",
+        "salesforce",
+        "segment",
+        "supermetrics"
+      ],
+      "inboundLinks": 2
+    },
+    {
+      "name": "churn-prevention",
+      "version": "2.0.0",
+      "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls.",
+      "descriptionLength": 636,
+      "lines": 425,
+      "sections": [
+        "Before Starting",
+        "How This Skill Works",
+        "Cancel Flow Design",
+        "Churn Prediction & Proactive Retention",
+        "Involuntary Churn: Payment Recovery",
+        "Metrics & Measurement",
+        "Common Mistakes",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "cancel-flow-patterns.md",
+        "dunning-playbook.md"
+      ],
+      "relatedSkills": [
+        "emails",
+        "paywalls",
+        "pricing",
+        "onboarding",
+        "analytics",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "emails",
+        "paywalls"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "posthog"
+      ],
+      "inboundLinks": 5
+    },
+    {
+      "name": "co-marketing",
+      "version": "2.0.1",
+      "description": "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch.",
+      "descriptionLength": 430,
+      "lines": 311,
+      "sections": [
+        "Before Starting",
+        "When to Use This Skill",
+        "Partner Identification Framework",
+        "Partnership Types",
+        "Co-Marketing Campaign Types",
+        "Brainstorming Partner Campaigns",
+        "Approaching Potential Partners",
+        "Structuring the Partnership",
+        "Measuring Co-Marketing Success",
+        "Co-Marketing Checklist",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "partnership-types.md"
+      ],
+      "relatedSkills": [
+        "referrals",
+        "launch",
+        "content-strategy",
+        "sales-enablement"
+      ],
+      "descriptionSeeAlso": [
+        "referrals",
+        "launch"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "crossbeam",
+        "introw",
+        "partnerstack"
+      ],
+      "inboundLinks": 1
+    },
+    {
+      "name": "cold-email",
+      "version": "2.0.0",
+      "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.",
+      "descriptionLength": 658,
+      "lines": 160,
+      "sections": [
+        "Before Writing",
+        "Writing Principles",
+        "Voice & Tone",
+        "Structure",
+        "Subject Lines",
+        "Follow-Up Sequences",
+        "Quality Check",
+        "What to Avoid",
+        "Data & Benchmarks",
+        "Related Skills"
+      ],
+      "references": [
+        "benchmarks.md",
+        "follow-up-sequences.md",
+        "frameworks.md",
+        "personalization.md",
+        "subject-lines.md"
+      ],
+      "relatedSkills": [
+        "prospecting",
+        "copywriting",
+        "emails",
+        "social",
+        "product-marketing",
+        "revops"
+      ],
+      "descriptionSeeAlso": [
+        "emails",
+        "sales-enablement"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 7
+    },
+    {
+      "name": "community-marketing",
+      "version": "2.0.1",
+      "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \\\"build a community,\\\" \\\"community strategy,\\\" \\\"Discord community,\\\" \\\"Slack community,\\\" \\\"community-led growth,\\\" \\\"brand advocates,\\\" \\\"user community,\\\" \\\"forum strategy,\\\" \\\"community engagement,\\\" \\\"grow our community,\\\" \\\"ambassador program,\\\" \\\"community flywheel.\\\"",
+      "descriptionLength": 630,
+      "lines": 176,
+      "sections": [
+        "Before You Start",
+        "Community Strategy Principles",
+        "Playbooks by Goal",
+        "Community Models & Scaling Phases",
+        "Platform Selection Guide",
+        "Community Health Metrics",
+        "Output Formats",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "community-models.md"
+      ],
+      "relatedSkills": [
+        "referrals",
+        "churn-prevention",
+        "social",
+        "customer-research"
+      ],
+      "descriptionSeeAlso": [],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 3
+    },
+    {
+      "name": "competitor-profiling",
+      "version": "2.0.1",
+      "description": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement.",
+      "descriptionLength": 629,
+      "lines": 416,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Saving Raw Data",
+        "Research Process",
+        "Output Format",
+        "At a Glance",
+        "Positioning & Messaging",
+        "Product & Features",
+        "Pricing",
+        "Customers & Social Proof",
+        "SEO & Content Strategy",
+        "Strengths & Weaknesses",
+        "Competitive Implications for [Your Product]",
+        "Raw Data Sources",
+        "Quick Scan vs. Deep Profile",
+        "Handling Multiple Competitors",
+        "Updating Profiles",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "templates.md",
+        "tool-reference.md"
+      ],
+      "relatedSkills": [
+        "competitors",
+        "prospecting",
+        "customer-research",
+        "content-strategy",
+        "seo-audit",
+        "sales-enablement",
+        "ads",
+        "pricing"
+      ],
+      "descriptionSeeAlso": [
+        "competitors",
+        "sales-enablement"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 1
+    },
+    {
+      "name": "competitors",
+      "version": "2.0.1",
+      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
+      "descriptionLength": 601,
+      "lines": 259,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Page Formats",
+        "Essential Sections",
+        "Content Architecture",
+        "Research Process",
+        "SEO Considerations",
+        "Output Format",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "content-architecture.md",
+        "templates.md"
+      ],
+      "relatedSkills": [
+        "programmatic-seo",
+        "copywriting",
+        "seo-audit",
+        "schema",
+        "sales-enablement"
+      ],
+      "descriptionSeeAlso": [
+        "sales-enablement"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 7
+    },
+    {
+      "name": "content-strategy",
+      "version": "2.1.1",
+      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social.",
+      "descriptionLength": 659,
+      "lines": 440,
+      "sections": [
+        "Before Planning",
+        "Treat Content Like a Product",
+        "Searchable vs Shareable",
+        "Content Types",
+        "Content Pillars and Topic Clusters",
+        "Keyword Research by Buyer Stage",
+        "Content Ideation Sources",
+        "Prioritizing Content Ideas",
+        "Calendar Split: 60/30/10",
+        "Per-Format Execution Discipline",
+        "Create Once, Distribute Twice",
+        "Output Format",
+        "Task-Specific Questions",
+        "References",
+        "Related Skills"
+      ],
+      "references": [
+        "content-distribution.md",
+        "headless-cms.md"
+      ],
+      "relatedSkills": [
+        "copywriting",
+        "seo-audit",
+        "ai-seo",
+        "programmatic-seo",
+        "site-architecture",
+        "emails",
+        "social",
+        "launch"
+      ],
+      "descriptionSeeAlso": [
+        "copywriting",
+        "seo-audit",
+        "social"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "contentful",
+        "sanity",
+        "strapi"
+      ],
+      "inboundLinks": 9
+    },
+    {
+      "name": "copy-editing",
+      "version": "2.0.0",
+      "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
+      "descriptionLength": 593,
+      "lines": 458,
+      "sections": [
+        "Core Philosophy",
+        "The Seven Sweeps Framework",
+        "Expert Panel Scoring",
+        "Quick-Pass Editing Checks",
+        "Copy Editing Checklist",
+        "Common Copy Problems & Fixes",
+        "Working with Copy Sweeps",
+        "References",
+        "Content Refresh Editing",
+        "Task-Specific Questions",
+        "Related Skills",
+        "When to Use Each Skill"
+      ],
+      "references": [
+        "checklist.md",
+        "content-refresh.md",
+        "plain-english-alternatives.md"
+      ],
+      "relatedSkills": [
+        "copywriting",
+        "cro",
+        "marketing-psychology",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "copywriting"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 3
+    },
+    {
+      "name": "copywriting",
+      "version": "2.0.2",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing. For the offer underneath the copy (bonuses, guarantees, value framing), see offers.",
+      "descriptionLength": 753,
+      "lines": 257,
+      "sections": [
+        "Before Writing",
+        "Copywriting Principles",
+        "Writing Style Rules",
+        "Best Practices",
+        "Page Structure Framework",
+        "CTA Copy Guidelines",
+        "Page-Specific Guidance",
+        "Voice and Tone",
+        "Output Format",
+        "Related Skills"
+      ],
+      "references": [
+        "copy-frameworks.md",
+        "natural-transitions.md"
+      ],
+      "relatedSkills": [
+        "copy-editing",
+        "cro",
+        "emails",
+        "popups",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "emails",
+        "popups",
+        "copy-editing",
+        "offers"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 20
+    },
+    {
+      "name": "cro",
+      "version": "2.0.0",
+      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups.",
+      "descriptionLength": 654,
+      "lines": 188,
+      "sections": [
+        "Initial Assessment",
+        "CRO Analysis Framework",
+        "Output Format",
+        "Page-Specific Frameworks",
+        "Experiment Ideas",
+        "Task-Specific Questions",
+        "Related Skills",
+        "Form Optimization"
+      ],
+      "references": [
+        "experiments.md",
+        "form.md"
+      ],
+      "relatedSkills": [
+        "signup",
+        "popups",
+        "copywriting",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "signup",
+        "onboarding",
+        "popups"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 19
+    },
+    {
+      "name": "customer-research",
+      "version": "2.0.2",
+      "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" \"PMF survey,\" \"product/market fit survey,\" \"customer interview questions,\" \"interview outreach,\" \"Sales Safari,\" or \"find out why customers churn/convert/buy.\" Use for analyzing existing research assets, mining online sources, AND running primary research (interviews and surveys). For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.",
+      "descriptionLength": 953,
+      "lines": 306,
+      "sections": [
+        "Before Starting",
+        "Three Modes of Research",
+        "Mode 1: Analyzing Existing Research Assets",
+        "Mode 2: Digital Watering Hole Research",
+        "Top Themes (ranked by frequency × intensity)",
+        "Mode 3: Interviews & Surveys (Primary Research)",
+        "Persona Generation",
+        "[Persona Name] — [Role/Title]",
+        "Deliverable Formats",
+        "Questions to Ask Before Proceeding",
+        "Related Skills"
+      ],
+      "references": [
+        "interviews-and-surveys.md",
+        "source-guides.md"
+      ],
+      "relatedSkills": [],
+      "descriptionSeeAlso": [
+        "copywriting",
+        "cro"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "sparktoro"
+      ],
+      "inboundLinks": 6
+    },
+    {
+      "name": "directory-submissions",
+      "version": "2.0.0",
+      "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.",
+      "descriptionLength": 815,
+      "lines": 382,
+      "sections": [
+        "Before Starting",
+        "Core Philosophy",
+        "The Three Hard Rules",
+        "Workflow",
+        "Product Hunt Deep Dive (The Anchor Event)",
+        "Reviews Playbook (G2 / Capterra / TrustRadius)",
+        "Destination Pages Strategy (What the Backlinks Point At)",
+        "GEO (Generative Engine Optimization)",
+        "Community & Ongoing Distribution",
+        "KPIs & Tracking",
+        "What NOT to Do",
+        "Task-Specific Questions",
+        "Output Format",
+        "Related Skills"
+      ],
+      "references": [
+        "directory-list.md",
+        "positioning-variations.md"
+      ],
+      "relatedSkills": [
+        "launch",
+        "programmatic-seo",
+        "competitors",
+        "ai-seo",
+        "content-strategy",
+        "free-tools",
+        "community-marketing",
+        "schema"
+      ],
+      "descriptionSeeAlso": [
+        "launch",
+        "programmatic-seo",
+        "ai-seo"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 3
+    },
+    {
+      "name": "emails",
+      "version": "2.0.0",
+      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding.",
+      "descriptionLength": 568,
+      "lines": 312,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Email Sequence Strategy",
+        "Sequence Types Overview",
+        "Email Types by Category",
+        "Email Copy Guidelines",
+        "Output Format",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "copy-guidelines.md",
+        "email-types.md",
+        "sequence-templates.md"
+      ],
+      "relatedSkills": [
+        "lead-magnets",
+        "churn-prevention",
+        "onboarding",
+        "copywriting",
+        "ab-testing",
+        "popups",
+        "revops"
+      ],
+      "descriptionSeeAlso": [
+        "cold-email",
+        "onboarding"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "customer-io",
+        "kit",
+        "mailchimp",
+        "nitrosend",
+        "resend",
+        "sendgrid"
+      ],
+      "inboundLinks": 16
+    },
+    {
+      "name": "events",
+      "version": "1.0.0",
+      "description": "When the user wants to plan, run, sponsor, speak at, or get pipeline from events — webinars, conferences, trade shows, meetups, dinners, workshops, virtual summits, or user conferences. Also use when the user mentions 'event marketing,' 'field marketing,' 'run a webinar,' 'webinar funnel,' 'show-up rate,' 'should we sponsor,' 'sponsor a conference,' 'trade show booth,' 'booth strategy,' 'event ROI,' 'badge scans,' 'event follow-up,' 'speaking slot,' 'CFP,' 'conference talk,' 'host a dinner,' 'user conference,' or 'virtual summit.' Covers all four roles: hosting, sponsoring/exhibiting, speaking, and attending. For product launch moments, see launch. For the partnership side of joint webinars, see co-marketing. For ongoing community programs, see community-marketing. For podcast appearances, see public-relations. For the email sequences themselves, see emails.",
+      "descriptionLength": 870,
+      "lines": 132,
+      "sections": [
+        "Before Starting",
+        "Pick Your Role",
+        "Which Events to Invest In (Portfolio First)",
+        "The Universal Arc: 20% Event, 80% Before-and-After",
+        "Hosting: Choose the Format for the Job",
+        "Attending (No Booth, No Stage)",
+        "The Content Arc: Every Event Is a Content Engine",
+        "Measurement: Pipeline, Not Applause",
+        "Common Mistakes",
+        "Related Skills"
+      ],
+      "references": [
+        "event-portfolio-strategy.md",
+        "speaking.md",
+        "sponsorship-roi.md",
+        "webinar-funnel.md"
+      ],
+      "relatedSkills": [
+        "launch",
+        "co-marketing",
+        "community-marketing",
+        "public-relations",
+        "lead-magnets",
+        "emails",
+        "sms",
+        "cold-email",
+        "revops",
+        "attribution"
+      ],
+      "descriptionSeeAlso": [
+        "launch",
+        "co-marketing",
+        "community-marketing",
+        "public-relations",
+        "emails"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 0
+    },
+    {
+      "name": "free-tools",
+      "version": "2.0.1",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
+      "descriptionLength": 628,
+      "lines": 191,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Tool Types Overview",
+        "Ideation Framework",
+        "Lead Capture Strategy",
+        "SEO Considerations",
+        "Build vs. Buy",
+        "MVP Scope",
+        "Evaluation Scorecard",
+        "Task-Specific Questions",
+        "Common Pitfalls",
+        "Related Skills"
+      ],
+      "references": [
+        "tool-benchmarks.md",
+        "tool-types.md"
+      ],
+      "relatedSkills": [
+        "lead-magnets",
+        "cro",
+        "seo-audit",
+        "analytics",
+        "emails"
+      ],
+      "descriptionSeeAlso": [
+        "lead-magnets"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 3
+    },
+    {
+      "name": "image",
+      "version": "2.0.1",
+      "description": "When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Flux Kontext,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'ChatGPT Images,' 'Ideogram,' 'Gemini image,' 'Nano Banana,' 'Recraft,' 'Stable Diffusion,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video.",
+      "descriptionLength": 818,
+      "lines": 341,
+      "sections": [
+        "Before Starting",
+        "Choosing Your Approach",
+        "AI Image Generation",
+        "Design Tools",
+        "Marketing Image Workflows",
+        "Image Optimization",
+        "OG & Social Preview Images",
+        "Common Mistakes",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "ai-image-prompting.md"
+      ],
+      "relatedSkills": [
+        "ad-creative",
+        "video",
+        "social",
+        "cro",
+        "seo-audit",
+        "aso",
+        "directory-submissions"
+      ],
+      "descriptionSeeAlso": [
+        "ad-creative",
+        "video"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 0
+    },
+    {
+      "name": "influencer-marketing",
+      "version": "1.1.0",
+      "description": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'tech UGC,' 'UGC creator program,' 'creator network,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative.",
+      "descriptionLength": 812,
+      "lines": 200,
+      "sections": [
+        "Before Starting",
+        "The Influencer ↔ Ambassador Spectrum",
+        "1. Finding & Vetting Partners",
+        "2. Outreach",
+        "3. Structuring the Deal",
+        "4. Disclosure & Compliance (non-negotiable)",
+        "5. The Creative Brief",
+        "6. Measurement & ROI",
+        "Ambassador Program Design",
+        "Common Mistakes",
+        "Run-of-Show Checklist",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "ugc-creator-program.md"
+      ],
+      "relatedSkills": [
+        "referrals",
+        "community-marketing",
+        "ad-creative",
+        "cold-email",
+        "customer-research",
+        "ai-seo",
+        "social"
+      ],
+      "descriptionSeeAlso": [
+        "referrals",
+        "community-marketing",
+        "ad-creative"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "sparktoro"
+      ],
+      "inboundLinks": 0
+    },
+    {
+      "name": "launch",
+      "version": "2.0.2",
+      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers.",
+      "descriptionLength": 549,
+      "lines": 382,
+      "sections": [
+        "Before Starting",
+        "Core Philosophy",
+        "The ORB Framework",
+        "Readiness Gate: Are You Ready to Launch?",
+        "Five-Phase Launch Approach",
+        "Product Hunt Launch Strategy",
+        "Post-Launch Product Marketing",
+        "Ongoing Launch Strategy",
+        "Launch Checklist",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [],
+      "relatedSkills": [
+        "marketing-ideas",
+        "emails",
+        "cro",
+        "marketing-psychology",
+        "programmatic-seo",
+        "sales-enablement"
+      ],
+      "descriptionSeeAlso": [
+        "marketing-ideas",
+        "offers"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "introw"
+      ],
+      "inboundLinks": 9
+    },
+    {
+      "name": "lead-magnets",
+      "version": "2.0.0",
+      "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails.",
+      "descriptionLength": 657,
+      "lines": 311,
+      "sections": [
+        "Before Planning",
+        "Lead Magnet Principles",
+        "Lead Magnet Types",
+        "Matching Lead Magnets to Buyer Stage",
+        "Gating Strategy",
+        "Landing Page & Delivery",
+        "Promotion & Distribution",
+        "Measuring Success",
+        "Output Format",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "benchmarks.md",
+        "format-guide.md"
+      ],
+      "relatedSkills": [
+        "free-tools",
+        "copywriting",
+        "emails",
+        "cro",
+        "popups",
+        "content-strategy",
+        "analytics",
+        "ads",
+        "social"
+      ],
+      "descriptionSeeAlso": [
+        "free-tools",
+        "copywriting",
+        "emails"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 5
+    },
+    {
+      "name": "marketing-council",
+      "version": "1.0.0",
+      "description": "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill.",
+      "descriptionLength": 818,
+      "lines": 162,
+      "sections": [
+        "Before Starting",
+        "Session Modes",
+        "The Bench",
+        "Seating the Council",
+        "Session Protocol",
+        "Live Research Pass",
+        "Grounding Rules (non-negotiable)",
+        "Output Format",
+        "The question before the council",
+        "Seated: [Advisor A], [Advisor B], [Advisor C] ([mode])",
+        "Where the council disagrees",
+        "Chair's synthesis",
+        "Adding a Custom Advisor",
+        "Anti-Patterns",
+        "Related Skills"
+      ],
+      "references": [
+        "advisor-template.md"
+      ],
+      "relatedSkills": [
+        "product-marketing",
+        "offers",
+        "pricing",
+        "copywriting",
+        "copy-editing",
+        "ads",
+        "ad-creative",
+        "content-strategy",
+        "social",
+        "marketing-psychology",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 0
+    },
+    {
+      "name": "marketing-ideas",
+      "version": "2.0.1",
+      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (ads, social, emails, etc.).",
+      "descriptionLength": 561,
+      "lines": 172,
+      "sections": [
+        "How to Use This Skill",
+        "Ideas by Category (Quick Reference)",
+        "Implementation Tips",
+        "Top Ideas by Use Case",
+        "Output Format",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "guerrilla-marketing.md",
+        "ideas-by-category.md"
+      ],
+      "relatedSkills": [
+        "marketing-plan",
+        "programmatic-seo",
+        "competitors",
+        "emails",
+        "free-tools",
+        "referrals"
+      ],
+      "descriptionSeeAlso": [],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 2
+    },
+    {
+      "name": "marketing-loops",
+      "version": "1.2.0",
+      "description": "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing.",
+      "descriptionLength": 724,
+      "lines": 108,
+      "sections": [
+        "How to Use This Skill",
+        "Anatomy of a Marketing Loop",
+        "The cadence rule",
+        "When NOT to loop",
+        "Scheduling a loop",
+        "The Catalog",
+        "Authoring a new loop",
+        "Anti-patterns",
+        "Banned vocabulary",
+        "Related Skills"
+      ],
+      "references": [
+        "loop-catalog.md",
+        "loop-guardrails.md",
+        "loop-orchestration.md",
+        "loop-state.md",
+        "loop-template.md"
+      ],
+      "relatedSkills": [
+        "marketing-ideas",
+        "ab-testing",
+        "analytics"
+      ],
+      "descriptionSeeAlso": [
+        "marketing-ideas",
+        "ab-testing"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 1
+    },
+    {
+      "name": "marketing-plan",
+      "version": "1.1.1",
+      "description": "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \"marketing plan,\" \"growth plan,\" \"GTM plan,\" \"go-to-market plan,\" \"AARRR plan,\" \"90-day marketing plan,\" \"12-month marketing roadmap,\" \"fractional CMO plan,\" or \"fCMO plan.\" Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see product-marketing. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.",
+      "descriptionLength": 949,
+      "lines": 301,
+      "sections": [
+        "When to use",
+        "How this skill is invoked",
+        "The three phases",
+        "The 13-section plan structure",
+        "The AARRR framing",
+        "Marketing as investing — the north-star framing",
+        "The current-state rubric",
+        "Cross-references — skills this plan integrates with",
+        "The marketing operations stack",
+        "Funding-stage capability unlocks",
+        "Setting the budget scientifically",
+        "Growth patterns — the real shape of SaaS growth",
+        "Team and agency model",
+        "What every plan must customize",
+        "Common client-type variations",
+        "Quality bar",
+        "Output format",
+        "File layout per plan",
+        "Related skills",
+        "Task-specific questions (used during INIT)",
+        "How exhaustive should the plan be?",
+        "A note on tone"
+      ],
+      "references": [
+        "aarrr-framework.md",
+        "budget-planning.md",
+        "client-types.md",
+        "current-state-rubric.md",
+        "example-quietude.md",
+        "funding-stage-unlocks.md",
+        "growth-patterns.md",
+        "idea-cross-reference.md",
+        "measurement-framework.md",
+        "methodology.md",
+        "ops-stack-mapping.md",
+        "plan-template.md",
+        "team-and-agency-model.md"
+      ],
+      "relatedSkills": [],
+      "descriptionSeeAlso": [
+        "product-marketing",
+        "onboarding"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 1
+    },
+    {
+      "name": "marketing-psychology",
+      "version": "2.0.0",
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting.",
+      "descriptionLength": 600,
+      "lines": 456,
+      "sections": [
+        "How to Use This Skill",
+        "Foundational Thinking Models",
+        "Understanding Buyers & Human Psychology",
+        "Influencing Behavior & Persuasion",
+        "Pricing Psychology",
+        "Design & Delivery Models",
+        "Growth & Scaling Models",
+        "Quick Reference",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [],
+      "relatedSkills": [
+        "cro",
+        "copywriting",
+        "popups",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "cro",
+        "pricing",
+        "copywriting"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 9
+    },
+    {
+      "name": "offers",
+      "version": "1.0.1",
+      "description": "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see sales-enablement.",
+      "descriptionLength": 969,
+      "lines": 156,
+      "sections": [
+        "Before Starting",
+        "Core Philosophy",
+        "The Value Equation",
+        "The Anatomy of a Complete Offer",
+        "Reference Library",
+        "The Diagnostic Loop",
+        "When NOT to Use Offer-Design Tactics",
+        "Banned Vocabulary",
+        "Related Skills"
+      ],
+      "references": [
+        "bonus-stacking.md",
+        "examples.md",
+        "guarantee-design.md",
+        "offer-anatomy.md",
+        "offer-formats.md",
+        "saas-offers.md",
+        "scarcity-urgency.md",
+        "value-equation.md"
+      ],
+      "relatedSkills": [
+        "pricing",
+        "copywriting",
+        "cro",
+        "launch",
+        "paywalls",
+        "sales-enablement",
+        "emails",
+        "marketing-psychology"
+      ],
+      "descriptionSeeAlso": [
+        "pricing",
+        "copywriting",
+        "launch",
+        "sales-enablement"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 5
+    },
+    {
+      "name": "onboarding",
+      "version": "2.0.1",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup. For ongoing email sequences, see emails.",
+      "descriptionLength": 624,
+      "lines": 262,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Onboarding Psychology",
+        "Onboarding Toolkit (10 Components)",
+        "Defining Activation",
+        "Onboarding Flow Design",
+        "Multi-Channel Onboarding",
+        "Handling Stalled Users",
+        "Measurement",
+        "Output Format",
+        "Common Patterns by Product Type",
+        "Experiment Ideas",
+        "References",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "activation-models.md",
+        "experiments.md",
+        "minimum-path-to-value.md"
+      ],
+      "relatedSkills": [
+        "signup",
+        "emails",
+        "paywalls",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "signup",
+        "emails"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 7
+    },
+    {
+      "name": "paywalls",
+      "version": "2.0.0",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing.",
+      "descriptionLength": 684,
+      "lines": 228,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Paywall Trigger Points",
+        "Paywall Screen Components",
+        "Specific Paywall Types",
+        "Timing and Frequency",
+        "Upgrade Flow Optimization",
+        "A/B Testing",
+        "Anti-Patterns to Avoid",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "experiments.md"
+      ],
+      "relatedSkills": [
+        "churn-prevention",
+        "cro",
+        "onboarding",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "cro",
+        "pricing"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 4
+    },
+    {
+      "name": "popups",
+      "version": "2.0.0",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro.",
+      "descriptionLength": 528,
+      "lines": 455,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Trigger Strategies",
+        "Popup Types",
+        "Design Best Practices",
+        "Copy Formulas",
+        "Frequency and Rules",
+        "Compliance and Accessibility",
+        "Measurement",
+        "Output Format",
+        "Common Popup Strategies",
+        "Experiment Ideas",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [],
+      "relatedSkills": [
+        "lead-magnets",
+        "cro",
+        "emails",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "cro"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 6
+    },
+    {
+      "name": "pricing",
+      "version": "2.1.1",
+      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, or wants to audit a pricing page (for humans and for the AI agents that shortlist tools). For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers.",
+      "descriptionLength": 868,
+      "lines": 296,
+      "sections": [
+        "Before Starting",
+        "Pricing Fundamentals",
+        "Initial Pricing — \"Pick a Price You Can Learn From\"",
+        "Value Metrics",
+        "Tier Structure Overview",
+        "Pricing Research",
+        "When to Raise Prices",
+        "Pricing Page Best Practices",
+        "Pricing Page Teardown",
+        "Pricing Checklist",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "pricing-models.md",
+        "pricing-page-teardown.md",
+        "research-methods.md",
+        "tier-structure.md"
+      ],
+      "relatedSkills": [
+        "churn-prevention",
+        "cro",
+        "ai-seo",
+        "schema",
+        "copywriting",
+        "marketing-psychology",
+        "ab-testing",
+        "revops",
+        "sales-enablement"
+      ],
+      "descriptionSeeAlso": [
+        "paywalls",
+        "offers"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 9
+    },
+    {
+      "name": "product-marketing",
+      "version": "2.1.0",
+      "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing.md` that all other skills reference for product, audience, and positioning context.",
+      "descriptionLength": 549,
+      "lines": 256,
+      "sections": [
+        "Workflow",
+        "Sections to Capture",
+        "Step 3: Create the Document",
+        "Product Overview",
+        "Target Audience",
+        "Personas",
+        "Problems & Pain Points",
+        "Competitive Landscape",
+        "Differentiation",
+        "Objections",
+        "Switching Dynamics",
+        "Customer Language",
+        "Brand Voice",
+        "Proof Points",
+        "Goals",
+        "Changelog",
+        "Step 4: Confirm, Version, and Save",
+        "Tips"
+      ],
+      "references": [],
+      "relatedSkills": [],
+      "descriptionSeeAlso": [],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 5
+    },
+    {
+      "name": "programmatic-seo",
+      "version": "2.0.0",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+      "descriptionLength": 593,
+      "lines": 239,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "The 12 Playbooks (Overview)",
+        "Choosing Your Playbook",
+        "Implementation Framework",
+        "Quality Checks",
+        "Common Mistakes",
+        "Output Format",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "playbooks.md"
+      ],
+      "relatedSkills": [
+        "seo-audit",
+        "schema",
+        "site-architecture",
+        "competitors"
+      ],
+      "descriptionSeeAlso": [
+        "seo-audit",
+        "content-strategy"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 9
+    },
+    {
+      "name": "prospecting",
+      "version": "1.1.0",
+      "description": "When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find prospects,\" \"find leads,\" \"lead gen list,\" \"find SaaS companies that,\" \"find B2B companies,\" \"find local businesses,\" \"ICP-fit accounts,\" \"who should we go after,\" \"outbound list,\" \"target account list,\" \"find clients near me,\" \"businesses without websites,\" \"prospect research,\" \"qualified leads,\" \"find my first customers,\" \"early adopters,\" \"design partners,\" \"beta users,\" or \"who has this problem.\" Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.",
+      "descriptionLength": 829,
+      "lines": 263,
+      "sections": [
+        "Before Starting",
+        "Pick the Branch",
+        "Shared Framework (all branches)",
+        "Compliance Guardrails",
+        "Inputs to Collect",
+        "Tool Selection Quick Picks",
+        "Output Formats",
+        "Quality Checks (before finalizing)",
+        "Common Mistakes",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "b2b-prospecting.md",
+        "compliance.md",
+        "data-sources.md",
+        "demand-signals.md",
+        "local-prospecting.md",
+        "saas-prospecting.md"
+      ],
+      "relatedSkills": [
+        "cold-email",
+        "customer-research",
+        "competitor-profiling",
+        "revops",
+        "sales-enablement",
+        "directory-submissions",
+        "product-marketing"
+      ],
+      "descriptionSeeAlso": [
+        "cold-email",
+        "competitor-profiling"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "apollo",
+        "browserbase",
+        "clay",
+        "clearbit",
+        "firecrawl",
+        "github",
+        "hunter",
+        "outreach",
+        "rb2b",
+        "snov",
+        "truelist",
+        "zoominfo"
+      ],
+      "inboundLinks": 2
+    },
+    {
+      "name": "public-relations",
+      "version": "1.1.1",
+      "description": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' 'podcast prep,' 'going on a podcast,' 'podcast guest,' 'prep me for this podcast,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, prepping podcast appearances, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email.",
+      "descriptionLength": 1010,
+      "lines": 143,
+      "sections": [
+        "Before Starting",
+        "Core Philosophy",
+        "The PR Mix",
+        "Owned: Press Page + Media Kit",
+        "Quick Reference: Pitch Quality Bar",
+        "Measurement",
+        "Common Workflows"
+      ],
+      "references": [
+        "journalist-pitching.md",
+        "media-outlets.md",
+        "newsjacking.md",
+        "podcast-guest-prep.md",
+        "press-platforms.md",
+        "story-angles.md"
+      ],
+      "relatedSkills": [],
+      "descriptionSeeAlso": [
+        "directory-submissions",
+        "launch",
+        "social",
+        "cold-email"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 2
+    },
+    {
+      "name": "referrals",
+      "version": "2.0.1",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch.",
+      "descriptionLength": 486,
+      "lines": 278,
+      "sections": [
+        "Before Starting",
+        "Should You Engineer Virality First?",
+        "Referral vs. Affiliate",
+        "Referral Program Design",
+        "Program Optimization",
+        "Measuring Success",
+        "Launch Checklist",
+        "Email Sequences",
+        "Affiliate Programs",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "affiliate-programs.md",
+        "program-examples.md",
+        "viral-mechanisms.md"
+      ],
+      "relatedSkills": [
+        "launch",
+        "emails",
+        "marketing-psychology",
+        "analytics"
+      ],
+      "descriptionSeeAlso": [
+        "launch"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "dub-co",
+        "introw",
+        "mention-me",
+        "partnerstack",
+        "rewardful",
+        "stripe",
+        "tolt"
+      ],
+      "inboundLinks": 4
+    },
+    {
+      "name": "revops",
+      "version": "2.0.0",
+      "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing.",
+      "descriptionLength": 656,
+      "lines": 346,
+      "sections": [
+        "Before Starting",
+        "Core Principles",
+        "Lead Lifecycle Framework",
+        "Lead Scoring",
+        "Lead Routing",
+        "Pipeline Stage Management",
+        "CRM Automation Workflows",
+        "Deal Desk Processes",
+        "Data Hygiene & Enrichment",
+        "RevOps Metrics Dashboard",
+        "Output Format",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "automation-playbooks.md",
+        "lifecycle-definitions.md",
+        "routing-rules.md",
+        "scoring-models.md"
+      ],
+      "relatedSkills": [
+        "cold-email",
+        "emails",
+        "pricing",
+        "analytics",
+        "launch",
+        "sales-enablement"
+      ],
+      "descriptionSeeAlso": [
+        "cold-email",
+        "emails",
+        "pricing"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "activecampaign",
+        "apollo",
+        "calendly",
+        "clearbit",
+        "crossbeam",
+        "hubspot",
+        "introw",
+        "salesforce",
+        "savvycal",
+        "zapier"
+      ],
+      "inboundLinks": 9
+    },
+    {
+      "name": "sales-enablement",
+      "version": "2.0.1",
+      "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitors. For marketing website copy, see copywriting. For cold outreach emails, see cold-email. For the offer being sold (bonuses, guarantees, pricing structure), see offers.",
+      "descriptionLength": 730,
+      "lines": 360,
+      "sections": [
+        "Before Starting",
+        "Core Principles",
+        "Sales Deck / Pitch Deck",
+        "One-Pagers / Leave-Behinds",
+        "Objection Handling Docs",
+        "ROI Calculators & Value Props",
+        "Demo Scripts & Talk Tracks",
+        "Case Study Briefs (Sales Format)",
+        "Proposal Templates",
+        "Sales Playbooks",
+        "Buyer Persona Cards",
+        "Output Format",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "deck-frameworks.md",
+        "demo-scripts.md",
+        "objection-library.md",
+        "one-pager-templates.md"
+      ],
+      "relatedSkills": [
+        "competitors",
+        "copywriting",
+        "cold-email",
+        "revops",
+        "pricing",
+        "product-marketing"
+      ],
+      "descriptionSeeAlso": [
+        "competitors",
+        "copywriting",
+        "cold-email",
+        "offers"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "introw"
+      ],
+      "inboundLinks": 9
+    },
+    {
+      "name": "schema",
+      "version": "2.0.0",
+      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+      "descriptionLength": 526,
+      "lines": 180,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Common Schema Types",
+        "Quick Reference",
+        "Multiple Schema Types",
+        "Validation and Testing",
+        "Implementation",
+        "Output Format",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "schema-examples.md"
+      ],
+      "relatedSkills": [
+        "seo-audit",
+        "ai-seo",
+        "programmatic-seo",
+        "site-architecture"
+      ],
+      "descriptionSeeAlso": [
+        "seo-audit",
+        "ai-seo"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 7
+    },
+    {
+      "name": "seo-audit",
+      "version": "2.0.1",
+      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.",
+      "descriptionLength": 679,
+      "lines": 500,
+      "sections": [
+        "Initial Assessment",
+        "Audit Framework",
+        "Technical SEO Audit",
+        "International SEO & Localization",
+        "On-Page SEO Audit",
+        "Content Quality Assessment",
+        "Common Issues by Site Type",
+        "Output Format",
+        "References",
+        "Tools Referenced",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "ai-writing-detection.md",
+        "international-seo.md"
+      ],
+      "relatedSkills": [
+        "ai-seo",
+        "programmatic-seo",
+        "site-architecture",
+        "schema",
+        "cro",
+        "analytics"
+      ],
+      "descriptionSeeAlso": [
+        "programmatic-seo",
+        "schema",
+        "ai-seo"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 10
+    },
+    {
+      "name": "signup",
+      "version": "2.0.0",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro.",
+      "descriptionLength": 623,
+      "lines": 360,
+      "sections": [
+        "Initial Assessment",
+        "Core Principles",
+        "Field-by-Field Optimization",
+        "Single-Step vs. Multi-Step",
+        "Trust and Friction Reduction",
+        "Mobile Signup Optimization",
+        "Post-Submit Experience",
+        "Measurement",
+        "Output Format",
+        "Common Signup Flow Patterns",
+        "Experiment Ideas",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [],
+      "relatedSkills": [
+        "onboarding",
+        "cro",
+        "ab-testing"
+      ],
+      "descriptionSeeAlso": [
+        "onboarding",
+        "cro"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 2
+    },
+    {
+      "name": "site-architecture",
+      "version": "2.0.0",
+      "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema.",
+      "descriptionLength": 670,
+      "lines": 358,
+      "sections": [
+        "Before Planning",
+        "Site Types and Starting Points",
+        "Page Hierarchy Design",
+        "Navigation Design",
+        "URL Structure",
+        "Visual Sitemap Output (Mermaid)",
+        "Internal Linking Strategy",
+        "Output Format",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "mermaid-templates.md",
+        "navigation-patterns.md",
+        "site-type-templates.md"
+      ],
+      "relatedSkills": [
+        "content-strategy",
+        "programmatic-seo",
+        "seo-audit",
+        "cro",
+        "schema",
+        "competitors"
+      ],
+      "descriptionSeeAlso": [
+        "seo-audit",
+        "schema"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 4
+    },
+    {
+      "name": "sms",
+      "version": "1.0.0",
+      "description": "When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS automation,\" \"abandoned cart text,\" \"post-purchase SMS,\" \"Klaviyo SMS,\" \"Postscript,\" \"Attentive,\" \"Twilio,\" \"A2P 10DLC,\" \"TCPA,\" \"SMS compliance,\" \"short code,\" \"toll-free SMS,\" \"MMS campaign,\" \"should I do SMS,\" or \"SMS vs email.\" For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.",
+      "descriptionLength": 647,
+      "lines": 339,
+      "sections": [
+        "Before Starting",
+        "When SMS Beats Email",
+        "Compliance — Read First",
+        "Phone Number Types (US)",
+        "Core Principles",
+        "SMS Sequence Types",
+        "SMS Copy Guidelines",
+        "Platform Selection",
+        "Measurement",
+        "Output Format",
+        "Task-Specific Questions",
+        "Common Mistakes",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "compliance.md",
+        "platforms.md",
+        "sequence-templates.md"
+      ],
+      "relatedSkills": [
+        "emails",
+        "copywriting",
+        "popups",
+        "churn-prevention",
+        "onboarding",
+        "analytics",
+        "ab-testing",
+        "lead-magnets"
+      ],
+      "descriptionSeeAlso": [
+        "emails",
+        "copywriting",
+        "popups"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "attentive",
+        "audiencetap",
+        "brevo",
+        "customer-io",
+        "klaviyo",
+        "plivo",
+        "postscript",
+        "twilio"
+      ],
+      "inboundLinks": 1
+    },
+    {
+      "name": "social",
+      "version": "2.2.0",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations.",
+      "descriptionLength": 1005,
+      "lines": 414,
+      "sections": [
+        "Before Creating Content",
+        "Platform Quick Reference",
+        "Content Pillars Framework",
+        "Hook Formulas",
+        "Content Repurposing System",
+        "Content Calendar Structure",
+        "Engagement Strategy",
+        "Analytics & Optimization",
+        "Content Ideas by Situation",
+        "Scheduling Best Practices",
+        "Reverse Engineering Viral Content",
+        "Short-Form Video (TikTok, Reels, Shorts)",
+        "Task-Specific Questions",
+        "Related Skills"
+      ],
+      "references": [
+        "carousel-frameworks.md",
+        "listening-sources-template.md",
+        "listening.md",
+        "platform-limits.md",
+        "platforms.md",
+        "post-templates.md",
+        "reverse-engineering.md",
+        "short-form-video.md"
+      ],
+      "relatedSkills": [
+        "copywriting",
+        "launch",
+        "emails",
+        "marketing-psychology"
+      ],
+      "descriptionSeeAlso": [
+        "content-strategy",
+        "ad-creative",
+        "public-relations"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [],
+      "inboundLinks": 9
+    },
+    {
+      "name": "video",
+      "version": "2.1.0",
+      "description": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' 'copy this edit,' 'match this video style,' 'reverse-engineer this video,' 'edit like this reference,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative.",
+      "descriptionLength": 763,
+      "lines": 347,
+      "sections": [
+        "Before Starting",
+        "Choosing Your Approach",
+        "Programmatic Video",
+        "AI Video Generation",
+        "AI Avatars",
+        "Editing & Repurposing Tools",
+        "Video Production Workflows",
+        "Agent-Native Video Pipeline",
+        "Common Mistakes",
+        "Task-Specific Questions",
+        "Tool Integrations",
+        "Related Skills"
+      ],
+      "references": [
+        "ai-video-prompting.md",
+        "edit-anatomy.md"
+      ],
+      "relatedSkills": [
+        "social",
+        "ad-creative",
+        "copywriting",
+        "marketing-psychology"
+      ],
+      "descriptionSeeAlso": [
+        "social",
+        "ad-creative"
+      ],
+      "readsProductMarketingContext": true,
+      "tools": [
+        "heygen",
+        "hyperframes"
+      ],
+      "inboundLinks": 1
+    }
+  ]
+}
